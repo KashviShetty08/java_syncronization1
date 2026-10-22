@@ -1,0 +1,47 @@
+# AI Prompt Log
+
+**Student:** Kashvi B Shetty  
+**USN:** NNM24IS103  
+**Programming Language:** Java  
+**AI Tool Used:** ChatGPT (OpenAI), chat interface
+
+## 1. Initial Prompt
+
+I asked ChatGPT for guidance on understanding and implementing the Operating Systems Synchronization Assignment. The assignment involved the Readers-Writers and Dining Philosophers problems using semaphores and monitors. I used the guidance to understand the synchronization concepts, organize the implementation, and prepare the required documentation.
+
+## 2. Important Follow-up Prompts
+
+- Asked for explanations of the Readers-Writers problem using Java semaphores and monitors.
+- Asked for explanations of the Dining Philosophers problem using Java semaphores and monitors.
+- Asked for help understanding how synchronization mechanisms control access to shared resources.
+- Asked for step-by-step instructions to run Java programs in Visual Studio Code without manually using the `javac` command.
+- Asked for help understanding and troubleshooting Java execution errors.
+- Asked for assistance in organizing the Java source files and HTML simulation files.
+- Asked for help preparing the README file and documenting the project structure.
+- Asked for guidance on explaining the code and understanding the expected program output.
+
+## 3. What I Changed or Did Myself
+
+- Organized the Java source files for the four synchronization implementations.
+- Worked with the HTML simulation files used to visualize synchronization events.
+- Ran the programs in Visual Studio Code and checked for execution errors.
+- Reviewed the synchronization logic and documentation to improve my understanding of the implementations.
+- Prepared the project README and organized the assignment documentation.
+- Captured screenshots of program execution and HTML simulations, where applicable.
+- Reviewed the code to understand how semaphores and monitors coordinate concurrent threads.
+
+*Note: Update this section to accurately reflect the work you personally completed, the programs you successfully ran, and the screenshots you actually captured.*
+
+## 4. Reflection: Limitations and Improvements
+
+- **Simulation timing:** The HTML simulations display recorded synchronization events. Their playback timing may differ from the original execution, depending on how the visualization is implemented.
+- **Thread scheduling:** The order of thread execution may vary between runs because it depends on thread scheduling and synchronization behavior.
+- **Fairness:** The possibility of starvation depends on the synchronization strategy used in each implementation. Further testing could help evaluate fairness.
+- **Readers-Writers:** The semaphore and monitor implementations use different synchronization mechanisms to manage access to shared data. Their reader and writer priority behavior should be evaluated based on the actual code.
+- **Dining Philosophers:** The implementations demonstrate coordination when philosophers compete for forks. Additional testing can help verify deadlock prevention and resource allocation behavior.
+- **Code understanding:** Reviewing the program flow and testing different execution scenarios can improve understanding of concurrent programming and synchronization.
+
+## 5. Acknowledgement
+
+ChatGPT was used as an assistance tool for understanding synchronization concepts, explaining Java code, troubleshooting execution issues, organizing project files, and preparing documentation. The implementation details, program outputs, screenshots, and conclusions should accurately represent the work completed for this assignment.
+
